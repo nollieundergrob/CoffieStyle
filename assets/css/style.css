@@ -274,6 +274,7 @@ color: #A25F4B;
 {
     text-decoration: none;
     transition: 0.5s;
+    margin-bottom: 50px;
 }
 .link_item:hover
 {
@@ -283,6 +284,7 @@ color: #A25F4B;
 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .old_price
 {
