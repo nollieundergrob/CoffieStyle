@@ -14,7 +14,16 @@
 }
 body
 {
-    font-family: Karla;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    
+    text-align: center;
+    
+    color: rgba(29, 31, 46, 0.7);
 }
 /* Header */
 .header
@@ -172,4 +181,147 @@ align-items: center;
 .mt40px
 {
     margin-top: 40px;
+}
+/* Секция 2 */
+.title_28px
+{
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 40px;
+/* or 143% */
+
+text-align: center;
+
+color: #1D1F2E;
+
+}
+.section2
+{
+    width: 660px;
+    margin: 0 auto;
+}
+.mb15px
+{
+    margin-bottom: 15px;
+}
+.mb20px
+{
+    margin-bottom: 20px;
+}
+.orange_link
+{
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+/* identical to box height, or 187% */
+text-decoration: none;
+text-align: center;
+
+color: #A25F4B;
+
+}
+.mb100px
+{margin-bottom: 100px;}
+.sub_title_12px_section
+{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #1D1F2E;
+}
+.title_card
+{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    text-align: center;
+    
+    color: #1D1F2E;
+    
+}
+.price
+{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    
+    text-align: center;
+    
+    color: rgba(29, 31, 46, 0.7);
+    
+    
+}
+.link_item
+{
+    text-decoration: none;
+    transition: 0.5s;
+}
+.link_item:hover
+{
+    opacity: 0.7;
+}
+.content_block
+{
+    display: flex;
+    justify-content: space-between;
+}
+.old_price
+{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    
+    text-align: center;
+    text-decoration-line: line-through;
+    
+    color: rgba(29, 31, 46, 0.4);
+    
+}
+.new_price
+{
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 32px;
+/* identical to box height, or 168% */
+
+text-align: center;
+
+color: #A25F4B;
+
+
+}
+.pricebox
+{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    margin: 0 auto;
+}
+.text_item
+{
+    padding: 35px 0px 20px 0px;
 }
