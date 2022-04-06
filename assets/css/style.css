@@ -1,4 +1,175 @@
 @font-face {
+    font-family: "Karla";
+    src: url("../fonts/karla.regular.ttf"), format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Karla";
+    src: url("../fonts/karla.bold.ttf"), format("truetype");
+    font-weight: 600;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
     font-family: Karla;
-    src: url();
+}
+/* Header */
+.header
+{
+    background-color: #fff;
+}
+.menu_link
+{
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+letter-spacing: 2px;
+text-transform: uppercase;
+text-decoration: none;
+color: #1D1F2E;
+
+}
+.menu_list  
+{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    width: 700px;
+}
+.wrapper_header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.container
+{
+    max-width: 950px;
+    margin: 0 auto;
+}
+.mr10px
+{margin-right: 10px;}
+.dcart
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+.roundes
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 100% 100%;
+    background-color: #1D1F2E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rod
+{
+    color: #fff;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/* Секция 1 */
+.intro
+{
+    background: url(../img/intro_bg.png) no-repeat center center / cover;
+}
+.wrapper
+{
+    padding: 100px 0px;
+}
+.sub_title_12px
+{
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.title_coffee
+{
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 47px;
+line-height: 60px;
+/* identical to box height, or 128% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.dicription_17px
+{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    /* identical to box height, or 176% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+     
+}
+.intro_button
+{
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+text-decoration: none;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+padding: 10px 15px;
+width: 183px;
+background-color: #fff;
+color: #1D1F2E;
+}
+.center_box
+{
+    display: flex;   flex-direction: column;
+    justify-content: space-between;
+align-items: center;
+}
+.mt60px
+{margin-top: 60px;}
+.mb70px 
+{margin-bottom: 70px;}
+.mt40px
+{
+    margin-top: 40px;
 }
