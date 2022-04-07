@@ -165,8 +165,13 @@ letter-spacing: 2px;
 text-transform: uppercase;
 padding: 10px 15px;
 width: 183px;
+transition: 0.5s;
 background-color: #fff;
 color: #1D1F2E;
+}
+.intro_button:hover
+{
+    transform: scale(1.1);
 }
 .center_box
 {
@@ -401,4 +406,186 @@ transition: 00.5s;
 {
     background: url(../img/bg2.png) no-repeat center center / cover;
     height: 340px;
+}
+.text_lower
+{
+    width: 300px;
+    text-align: left;
+    padding-top: 30px;
+}
+.title_lower
+{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #1D1F2E;
+}
+.disc_lower
+{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    padding: 15px 0px;
+    
+    
+    color: rgba(29, 31, 46, 0.7);
+}
+.sub_title_12px_lower
+{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #1D1F2E;
+}
+.blue_background
+{
+    
+background: #1D1F2E;
+border-radius: 0px;
+}
+.sign_title
+{
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+padding: 0px 15px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.line
+{
+    width: 30px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+.upper_title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.mailtext:focus
+{
+    outline: 0;
+}
+.mailtext
+{
+    width: 332px;
+    padding-left: 18px;
+    height: 54px;
+    border: 1px solid #2F303E;
+box-sizing: border-box;
+border-radius: 0px;
+background-color: transparent;
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.mailbutton
+{
+    background: #FFFFFF;
+box-shadow: 0px 2px 6px rgba(29, 31, 46, 0.1);
+border-radius: 0px;
+width: 129px;
+height: 54px;
+border: none;
+font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+cursor: pointer;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+transition: 0.5s;
+color: #000000;
+}
+.mailbutton:hover
+{
+    background-color: #696b8a;
+    color: #FFFFFF;
+}
+.row_footer
+{
+    text-align: left;
+    max-width: 260px;
+}
+.pmailtext
+{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    /* identical to box height, or 157% */
+    
+    
+    color: #1D1F2E;
+}
+.footer_link
+{
+    padding-bottom: 15px;
+    font-family: 'Karla';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+text-decoration: none;
+color: rgba(29, 31, 46, 0.7);
+}
+.footer_title
+{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    color: #1D1F2E;
+     
+}
+.row_footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
