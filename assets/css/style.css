@@ -14,6 +14,7 @@
 }
 body
 {
+    scroll-behavior: smooth;
     font-family: 'Karla';
     font-style: normal;
     font-weight: 400;
@@ -215,8 +216,15 @@ color: #1D1F2E;
 {
     margin-bottom: 20px;
 }
+.orange_link:hover
+{
+    border-bottom: 1px solid #A25F4B;
+}
 .orange_link
 {
+    border-bottom: 1px solid transparent;
+    transition: 00.5s;
+    padding-bottom: 4px;
     font-family: 'Karla';
 font-style: normal;
 font-weight: 400;
@@ -555,16 +563,22 @@ color: #000000;
     
     color: #1D1F2E;
 }
+.footer_link:hover
+{
+border-bottom: 1px solid rgba(29, 31, 46, 0.7);
+}
 .footer_link
 {
-    padding-bottom: 15px;
+    transition: 0.5s;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
     font-family: 'Karla';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
 /* identical to box height, or 157% */
-
+border-bottom: 1px solid transparent;
 text-decoration: none;
 color: rgba(29, 31, 46, 0.7);
 }
